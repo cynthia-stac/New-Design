@@ -1,61 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=2border-l-2.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=2border-l-2.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <title>Document</title>
-</head>
-<body class="relative">
-    <i class="fa-solid fa-xmark absolute text-white text-4xl top-10 right-12 hidden z-40 close"></i>
-    <div class="hidden absolute top-0 bottom-0 right-0 left-0 z-30 menu  flex justify-center items-center bg-blue-700 bg-opacity-60">
-        <div class="bg-white h-72 w-72 rounded-lg flex flex-col gap-4 pl-4 pt-3">
-                <p class="text-blue-900 text-sm">HOME</p>
-                <p class="text-blue-900 text-sm">SCHEMES</p>
-                <p class="text-blue-900 text-sm">INVESTMENT</p>
-                <p class="text-blue-900 text-sm">MANAGEMENT</p>
-                <p class="text-blue-900 text-sm">ABOUT</p>
-                <p class="text-blue-900 text-sm">CAREERS</p>
-                <p class="text-blue-900 text-sm">NEWS&EVENTS</p>
-                </div>
-            </div>
-        <div class ="bg-blue-100 border border-red-500">
-          <div class="flex text-blue-950 text-[12px] border border-red-500 items-center justify-center h-6 border-l-2">
-            <p class="px-4"><i class="fa-brands fa-linkedin-in "></i></p>
-            <p class="border-l-2 border-gray-300 px-4"><i class="fa-brands fa-twitter"></i></p>
-            <p class="border-l-2 border-gray-300 px-4"><i class="fa-brands fa-facebook-f"></i></p>
-            <p class="border-l-2 border-gray-300 px-4"><i class="fa-brands fa-youtube"></i></p>
-            <p class="border-l-2 border-gray-300 px-4"><i class="fa-brands fa-instagram"></i></p>
-          </div>
-          <div class="flex text-[12px] justify-center border border-red-500 items-center">
-            <div><p class="px-4">Publications</p></div>
-            <div class="group relative">
-                <p class="px-4 border-l-2 border-gray-300">Online Services <span class="text-sm"><i class="fa-solid fa-angle-down"></i></span></p>
-                   <div class="hidden group-hover:block absolute w-60 right-14 bg-gray-100 rounded-lg z-20">
-                      <p class="p-2 hover:bg-blue-900 hover:text-white text-blue-950 rounded-t-lg">Apply For Employee Number</p>
-                      <p class="p-2 hover:bg-blue-900 hover:text-white text-blue-950">Check For Your Contributions</p>
-                      <p class="p-2 hover:bg-blue-900 hover:text-white text-blue-950">Pay Employee Contributions</p>
-                      <p class="p-2 hover:bg-blue-900 hover:text-white text-blue-950">RSSB Clearance Certifacate</p>
-                      <p class="p-2 hover:bg-blue-900 hover:text-white text-blue-950 rounded-b-lg">Kwivuza</p>
-                   </div>
-            </div>
-          </div>  
-        </div>
-        <div class="flex mt-10 border border-red-500 justify-between items-center">
-            <div class=""><img class="h-20" src="./rssb_images/rssb-full-logo.png" alt="RSSB Logo"></div>
-            <div class="text-blue-900 text-4xl "><i class="fa-solid fa-bars open"></i></div>
-            
-        </div>
-        <div class="relative border border-red-500">
-          <img class="opacity-15 h-80" src="./rssb_images/public (1).jpg" alt="Grandparents">
-          <div class="absolute top-8 left-6 h-40  border border-red-500">
-                <div class="flex flex-col gap-4 "><p class="text-xl">Member First , data-driven, evidence-based and high performing organization. <p class="text-blue-900 font-semibold text-xl">Members First</p></p></div>                               
-                <div class="bg-blue-900 h-12 w-40  rounded-lg flex justify-center items-center hover:bg-white border hover:border-blue-900 group"><a class="text-white font-semibold group-hover:text-blue-900" href="#">Learn More</a></div>
-          </div>
-              </div>                 
-        </div>
+  </head>
+  <body class="relative">
+    <i
+      class="fa-solid fa-xmark absolute text-white text-lg md:text-4xl top-10 right-12 hidden z-40 close"
+    ></i>
+    <div
+      class="hidden absolute top-0 bottom-0 right-0 left-0 z-30 menu flex justify-center items-center bg-blue-700 bg-opacity-60"
+    >
+      <div class="bg-white h-52 md:h-80 w-48 md:w-72 rounded-lg flex flex-col gap-2 pl-2 md:pl-4 md:pt-5 pt-3 mb-2 md:gap-4">
+        <p class="text-blue-900 text-[10px] md:text-[14px]">HOME</p>
+        <p class="text-blue-900 text-[10px] md:text-[14px]">SCHEMES</p>
+        <p class="text-blue-900 text-[10px] md:text-[14px]">INVESTMENT</p>
+        <p class="text-blue-900 text-[10px] md:text-[14px]">MANAGEMENT</p>
+        <p class="text-blue-900 text-[10px] md:text-[14px]">ABOUT</p>
+        <p class="text-blue-900 text-[10px] md:text-[14px]">CAREERS</p>
+        <p class="text-blue-900 text-[10px] md:text-[14px]">NEWS&EVENTS</p>
+      </div>
     </div>
+        
+    <!-- **************************** -->
+    <div
+      class="bg-gray-200 pb-2 lg:flex lg:justify-between lg:items-center lg:px-8 pt-4"
+    >
+      <div class=" mb-2">
+        <ul class="flex text-[#242e8f] justify-center text-[10px] md:text-[16px]">
+          <li class="px-1 md:px-2">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </li>
+          <li class="border-l-2 px-1 md:px-2 border-gray-300">
+            <i class="fa-brands fa-twitter"></i>
+          </li>
+          <li class="border-l-2 px-1 md:px-2 border-gray-300 ">
+            <i class="fa-brands fa-facebook-f"></i>
+          </li>
+          <li class="border-l-2 px-1 md:px-2 border-gray-300 ">
+            <i class="fa-brands fa-youtube"></i>
+          </li>
+          <li class="border-l-2 px-1 md:px-2 border-gray-300 ">
+            <i class="fa-brands fa-square-instagram"></i>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex gap-2 text-[#242e8f] justify-center">
+        <div class="lg:order-1">
+          <p
+            class="text-[9px] md:text-[16px] border-r-2 pr-3 border-gray-300  lg:border-r-0 lg:border-l-2 lg:pl-3"
+          >
+            Publications
+          </p>
+        </div>
+        <div class="relative group">
+          <p class="text-[9px] md:text-[16px] cursor-pointer">
+            Online Services
+            <span class="text-[11px] ">
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
+          </p>
+          <div
+            class="rounded-lg right-0 w-40 md:w-60 text-[10px] md:text-[15px] absolute hidden group-hover:block transition-opacity duration-300 z-30 bg-gray-100"
+          >
+            <p
+              class="px-2 py-2 hover:bg-[#242e8f] hover:text-white rounded-tr-lg rounded-tl-lg"
+            >
+              Apply For Employee Number
+            </p>
+            <p class="px-2 py-2 hover:bg-[#242e8f] hover:text-white">
+              Check For Your Contributions
+            </p>
+            <p class="px-2 py-2 hover:bg-[#242e8f] hover:text-white">
+              Pay Employee Contributions
+            </p>
+            <p class="px-2 py-2 hover:bg-[#242e8f] hover:text-white">
+              RSSB Clearance Certificate
+            </p>
+            <p
+              class="px-2 py-2 hover:bg-[#242e8f] hover:text-white rounded-br-lg rounded-bl-lg"
+            >
+              Kwivuza
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ******************* -->
+    <div class="flex mt-5 mb-5 mx-2 justify-between items-center md:mx-4">
+      <div class="">
+        <img
+          class="h-14 md:w-48 md:h-28"
+          src="./rssb_images/rssb-full-logo.png"
+          alt="RSSB Logo"
+        />
+      </div>
+      <div class="text-blue-900 text-lg md:text-4xl xl:hidden">
+        <i class="fa-solid fa-bars open"></i>
+      </div>
+      <div class=" gap-4  hidden xl:flex ">
+      <div class="flex gap-2">
+        <div class="rounded-full border border-gray-200 h-10 flex justify-center items-center w-10 mt-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone text-[#242e8f]"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg></div>
+        <div class="flex flex-col">
+          <p class="text-[#242e8f] font-bold">4044</p>
+          <p>Toll free lines</p>
+        </div>
+      </div>
+      <div class="flex gap-4 px-3 border-l">
+        <div class="rounded-full border border-gray-200 h-10 flex justify-center items-center w-10 mt-1"><i class="fa-regular fa-envelope text-[#242e8f]"></i></div>
+        <div class="flex flex-col">
+          <p class="text-[#242e8f] font-bold">info@rssb.rw</p>
+          <p>Reach to us</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="relative bg-[#e7ecef] mt-20">
+      <img
+        class="opacity-20 h-48 xl:ml-32  xl:opacity-10 xl:h-[500px] xl:w-[700px] md:w-[600px] md:h-96 md:flex md:inset-0 md:m-auto"
+        src="./rssb_images/public (9).png"
+        alt="Baby"
+      />
+  
+      <div class="hidden bg-[#242e8f]  xl:flex gap-6 rounded-2xl h-24 mx-16 right-0 left-0 justify-start items-center absolute -top-10 z-30">
+          <p class="text-white text-sm ml-12 underline decoration-2 underline-offset-8 decoration-yellow-500">HOME</p>
+          <p class="text-white text-sm hover:underline decoration-2 hover:underline-offset-8 decoration-yellow-500">SCHEMES</p>
+          <p class="text-white text-sm hover:underline decoration-2 hover:underline-offset-8 decoration-yellow-500">INVESTMENT</p>
+          <p class="text-white text-sm hover:underline decoration-2 hover:underline-offset-8 decoration-yellow-500">MANAGEMENT</p>
+          <p class="text-white text-sm hover:underline decoration-2 hover:underline-offset-8 decoration-yellow-500">ABOUT</p>
+          <p class="text-white text-sm hover:underline decoration-2 hover:underline-offset-8 decoration-yellow-500">CAREERS</p>
+          <p class="text-white text-sm hover:underline decoration-2 hover:underline-offset-8 decoration-yellow-500">NEWS&EVENTS</p>
+  
+      </div>
+    
+      <div class="absolute bottom-0 right-20 hidden xl:block"><img src="./rssb_images/public (9).png" alt="Baby"  class="h-[500px]"></div>
+      <div class="absolute top-8 left-2 h-40 md:top-24 md:left-5">
+        <div class="flex flex-col gap-4">
+          <p class="text-[13px] text-[#242e93] font-light md:text-3xl">
+            <span class="font-bold text-orange-500">Member First</span>  , data-driven, evidence-based and high <br class="hidden md:block"> performing
+            organization.
+          </p>
+          <p class="text-blue-900 font-extrabold text-[10px] md:text-xl">Members First</p>
+        </div>
+        <div
+          class="bg-blue-900 h-7 w-24 mt-6 md:h-12 md:w-40 rounded-lg flex justify-center items-center hover:bg-white border hover:border-blue-900 group"
+        >
+          <button
+            class="text-white font-semibold group-hover:text-[#242e93] text-[10px] md:text-xl"
+          >
+            Learn More
+          </button>
+        </div>
+
+      </div>
+      
+    </div>
+    <div>
+        <div class="flex flex-col gap-3 h-52 w-52 border-2 border-red-500 mt-0 p-4">
+          <div class="text-[#242e93] mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round-icon lucide-users-round"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></svg></div>
+          <p class="text-xl font-bold text-gray-800">Member First</p>
+          <p class="text-sm font-light"><span class="text-[#242e93] font-bold">13 Million</span> of Rwandans are <br> covered by RSSB services</p>
+        </div>
+        <div class="flex flex-col gap-3 h-52 w-52 border-2 border-red-500 mt-0 p-4">
+          <div class="text-[#242e93] mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round-icon lucide-users-round"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></svg></div>
+          <p class="text-xl font-bold text-gray-800">Member First</p>
+          <p class="text-sm font-light"><span class="text-[#242e93] font-bold">13 Million</span> of Rwandans are <br> covered by RSSB services</p>
+        </div>
+        <div class="flex flex-col gap-3 h-52 w-52 border-2 border-red-500 mt-0 p-4">
+          <div class="text-[#242e93] mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round-icon lucide-users-round"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></svg></div>
+          <p class="text-xl font-bold text-gray-800">Member First</p>
+          <p class="text-sm font-light"><span class="text-[#242e93] font-bold">13 Million</span> of Rwandans are <br> covered by RSSB services</p>
+        </div>
+        <div class="flex flex-col gap-3 h-52 w-52 border-2 border-red-500 mt-0 p-4">
+          <div class="text-[#242e93] mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round-icon lucide-users-round"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></svg></div>
+          <p class="text-xl font-bold text-gray-800">Member First</p>
+          <p class="text-sm font-light"><span class="text-[#242e93] font-bold">13 Million</span> of Rwandans are <br> covered by RSSB services</p>
+        </div>
+      </div>   
     <script type="module" src="/src/main.js"></script>
     <script src="rssb.js"></script>
-</body>
+  </body>
 </html>
